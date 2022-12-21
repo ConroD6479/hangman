@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Words xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+  <Cars>
+    <string>ФОРД</string>
+    <string>МЕРСЕДЕС</string>
+    <string>АУДИ</string>
+    <string>ОПЕЛЬ</string>
+    <string>ДАСИА</string>
+    <string>ФОЛЬКСВАГЕН</string>
+    <string>ФЕРРАРИ</string>
+    <string>ХОНДА</string>
+    <string>СУБАРУ</string>
+    <string>ТОЙОТА</string>
+    <string>ХЁНДАЙ</string>
+    <string>РЕНО</string>
+    <string>РЕНДЖ РОВЕР</string>
+    <string>ЛЭНД РОВЕР</string>
+    <string>ПИЖО</string>
+    <string>АСТОН МАРТИН</string>
+    <string>ЛАМБОРГИНИ</string>
+    <string>БУГАТТИ</string>
+    <string>БЕНТЛИ</string>
+    <string>ПОРШЕ</string>
+  </Cars>
+  <Mountains>
+    <string>ГИМАЛАИ</string>
+    <string>РОКИ</string>
+    <string>СЬЕРРА НЕВАДА</string>
+    <string>КАРПАТЫ</string>
+    <string>АЛЬПЫ</string>
+    <string>ПИРЕНЕИ</string>
+    <string>АПЕННИНЫ</string>
+    <string>УРАЛЬСКИЕ</string>
+    <string>БАЛКАНСКИЕ</string>
+    <string>КАВКАЗСКИЕ</string>
+    <string>СКАНДИНАВСКИЕ</string>
+    <string>ПЕННИНСКИЕ</string>
+    <string>ФУДЗИ</string>
+    <string>КИЛИМАНДЖАРО</string>
+    <string>МОНБЛАН</string>
+    <string>ОЛИМПУС</string>
+    <string>ЭВЕРЕСТ</string>
+    <string>АПУСЕНИ</string>
+    <string>ФЭГЭРАШ</string>
+    <string>БУЧЕДЖИ</string>
+  </Mountains>
+  <Movies>
+    <string>ВИКИНГИ</string>
+    <string>ОСТРЫЕ КОЗЫРЬКИ</string>
+    <string>ЛЮЦИФЕР</string>
+    <string>БУМАЖНЫЙ ДОМ</string>
+    <string>ЧЕРНОБЫЛЬ</string>
+    <string>ДРУЗЬЯ</string>
+    <string>ХОЛОДНОЕ СЕРДЦЕ</string>
+    <string>ОТРЯД САМОУБИЙЦ</string>
+    <string>БЭТМЕН</string>
+    <string>СУПЕРМЕН</string>
+    <string>ЧЕЛОВЕК ПАУК</string>
+    <string>КОРОЛЬ ЛЕВ</string>
+    <string>ДЖУМАНДЖИ</string>
+    <string>РИВЕРДЕЙЛ</string>
+    <string>ВО ВСЕ ТЯЖКИЕ</string>
+    <string>МСТИТЕЛИ</string>
+    <string>БИЧИ В МАЙАМИ</string>
+    <string>МИРАЖ</string>
+    <string>ЗВЕЗДНЫЕ ВОЙНЫ</string>
+    <string>ЗВЕЗДНЫЙ ПУТЬ</string>
+  </Movies>
+  <Rivers>
+    <string>ДУНАЙ</string>
+    <string>ВОЛГА</string>
+    <string>НИЛ</string>
+    <string>ТЕМЗА</string>
+    <string>СЕНА</string>
+    <string>ПРУТ</string>
+    <string>МАРОШ</string>
+    <string>ОЛТ</string>
+    <string>ТИБР</string>
+    <string>АМАЗОНКА</string>
+    <string>ТИМИШ</string>
+    <string>МИССИСИПИ</string>
+    <string>МИССУРИ</string>
+    <string>СЕНА</string>
+    <string>РЕЙН</string>
+    <string>ЭЛЬБА</string>
+    <string>МАЙН</string>
+    <string>ГАНГ</string>
+    <string>БРАХМАПУТРА</string>
+    <string>НИАГАРА</string>
+  </Rivers>
+  <Cities>
+    <string>РОССИЯ</string>
+    <string>КИТАЙ</string>
+    <string>ЯПОНИЯ</string>
+    <string>ГЕРМАНИЯ</string>
+    <string>ВЕЛИКОБРИТАНИЯ</string>
+    <string>ФРАНЦИЯ</string>
+    <string>НИДЕРЛАНДЫ</string>
+    <string>ЧЕХИЯ</string>
+    <string>ХОРВАТИЯ</string>
+    <string>СЛОВАКИЯ</string>
+    <string>США</string>
+    <string>СЛОВЕНИЯ</string>
+    <string>БРАЗИЛИЯ</string>
+    <string>АРГЕНТИНА</string>
+    <string>КОЛУМБИЯ</string>
+    <string>МЕКСИКА</string>
+    <string>КАНАДА</string>
+    <string>АВСТРАЛИЯ</string>
+    <string>ИСПАНИЯ</string>
+    <string>СЕРБИЯ</string>
+  </Cities>
+</Words>

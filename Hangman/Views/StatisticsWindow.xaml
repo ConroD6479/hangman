@@ -1,0 +1,72 @@
+﻿<Window x:Class="Hangman.Views.StatisticsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hangman.Views"
+        mc:Ignorable="d"
+        Title="StatisticsWindow" Height="600" Width="800" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="/Hangman;component/Assets/Icon.ico">
+    <Grid Background="#FF9966CC">
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="Ник" FontSize="30" Foreground="White" FontFamily="Trebuchet MS" HorizontalContentAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="{Binding Name}" FontSize="30" Foreground="White" FontFamily="Trebuchet MS" HorizontalContentAlignment="Right" VerticalAlignment="Center" HorizontalAlignment="Right"/>
+
+            <Image Grid.Row="0" Grid.Column="1" Grid.RowSpan="2" Height="100" VerticalAlignment="Top" HorizontalAlignment="Left" Source="{Binding UserImageSource}"/>
+
+            <Label Grid.Row="2" Grid.Column="0" Content="Победы" FontFamily="Trebuchet MS" FontSize="30" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="1" Content="Поражения" FontFamily="Trebuchet MS" FontSize="30" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Content="Все категории" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="{Binding WonGamesAll}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="3" Grid.Column="1" Content="{Binding LostGamesAll}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Content="Автомобили" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="{Binding WonGamesCars}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="4" Grid.Column="1" Content="{Binding LostGamesCars}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Content="Горы" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="5" Grid.Column="0" Content="{Binding WonGamesMountains}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="5" Grid.Column="1" Content="{Binding LostGamesMountains}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Content="Фильмы" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="6" Grid.Column="0" Content="{Binding WonGamesMovies}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="6" Grid.Column="1" Content="{Binding LostGamesMovies}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" Content="Реки" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="7" Grid.Column="0" Content="{Binding WonGamesRivers}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="7" Grid.Column="1" Content="{Binding LostGamesRivers}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2" Content="Города" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="8" Grid.Column="0" Content="{Binding WonGamesStates}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="8" Grid.Column="1" Content="{Binding LostGamesStates}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+            <Label Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" Content="Всего" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="9" Grid.Column="0" Content="{Binding TotalWonGames}" FontFamily="Trebuchet MS" FontSize="20" Foreground="LimeGreen" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="9" Grid.Column="1" Content="{Binding TotalLostGames}" FontFamily="Trebuchet MS" FontSize="20" Foreground="Red" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+
+            <Label Grid.Row="10" Grid.Column="0" Content="Всего игр сыграно" FontFamily="Trebuchet MS" FontSize="30" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+            <Label Grid.Row="10" Grid.Column="1" Content="{Binding TotalGames}" FontFamily="Trebuchet MS" FontSize="20" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        </Grid>
+    </Grid>
+</Window>

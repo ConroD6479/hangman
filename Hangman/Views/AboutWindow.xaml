@@ -1,0 +1,26 @@
+﻿<Window x:Class="Hangman.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Hangman.Views"
+        mc:Ignorable="d"
+        Title="О нас" Height="240" Width="400"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/Hangman;component/Assets/Icon.ico" Background="#FF9966CC">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="38*"/>
+            <ColumnDefinition Width="331*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="stackPanel" Grid.ColumnSpan="3" Margin="0,0,0,124" Grid.RowSpan="2">
+            <TextBlock FontSize="15" FontFamily="Trebuchet MS" Foreground="White"><Run Text="🌍 https://github.com/ConroD6479/hangman"/><Hyperlink Cursor="Hand" Foreground="#FF6D6D6D" NavigateUri="https://github.com/robert-adrian99" TextDecorations="Underline"/></TextBlock>
+        </StackPanel>
+        <Button Grid.Row="1" Content="OK" FontSize="15" Click="OkButtonClick" Cursor="Hand" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="81,0,0,10" Height="30" Width="100" Grid.Column="2" FontFamily="Trebuchet MS"></Button>
+    </Grid>
+</Window>

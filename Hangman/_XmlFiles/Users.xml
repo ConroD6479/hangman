@@ -2,33 +2,6 @@
 <Users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <List>
     <User>
-      <Name>w1tcher</Name>
-      <ImageIndex>2</ImageIndex>
-      <GameProperty>
-        <LevelProperty>1</LevelProperty>
-        <MistakesProperty>0</MistakesProperty>
-        <CategoryProperty>Cars</CategoryProperty>
-        <WordOnDisplay />
-        <WordToGuess />
-        <SecondsRemaining>0</SecondsRemaining>
-        <SavedGame>false</SavedGame>
-      </GameProperty>
-      <StatisticsProperty>
-        <WonGamesAll>0</WonGamesAll>
-        <LostGamesAll>0</LostGamesAll>
-        <WonGamesCars>0</WonGamesCars>
-        <LostGamesCars>1</LostGamesCars>
-        <WonGamesMountains>0</WonGamesMountains>
-        <LostGamesMountains>0</LostGamesMountains>
-        <WonGamesMovies>0</WonGamesMovies>
-        <LostGamesMovies>0</LostGamesMovies>
-        <WonGamesRivers>0</WonGamesRivers>
-        <LostGamesRivers>0</LostGamesRivers>
-        <WonGamesStates>0</WonGamesStates>
-        <LostGamesStates>0</LostGamesStates>
-      </StatisticsProperty>
-    </User>
-    <User>
       <Name>ШРЕК</Name>
       <ImageIndex>8</ImageIndex>
       <GameProperty>
@@ -51,6 +24,33 @@
         <LostGamesMovies>3</LostGamesMovies>
         <WonGamesRivers>0</WonGamesRivers>
         <LostGamesRivers>1</LostGamesRivers>
+        <WonGamesStates>0</WonGamesStates>
+        <LostGamesStates>0</LostGamesStates>
+      </StatisticsProperty>
+    </User>
+    <User>
+      <Name>w1tcher</Name>
+      <ImageIndex>2</ImageIndex>
+      <GameProperty>
+        <LevelProperty>1</LevelProperty>
+        <MistakesProperty>0</MistakesProperty>
+        <CategoryProperty>All</CategoryProperty>
+        <WordOnDisplay />
+        <WordToGuess />
+        <SecondsRemaining>0</SecondsRemaining>
+        <SavedGame>false</SavedGame>
+      </GameProperty>
+      <StatisticsProperty>
+        <WonGamesAll>0</WonGamesAll>
+        <LostGamesAll>0</LostGamesAll>
+        <WonGamesCars>0</WonGamesCars>
+        <LostGamesCars>1</LostGamesCars>
+        <WonGamesMountains>0</WonGamesMountains>
+        <LostGamesMountains>0</LostGamesMountains>
+        <WonGamesMovies>0</WonGamesMovies>
+        <LostGamesMovies>0</LostGamesMovies>
+        <WonGamesRivers>0</WonGamesRivers>
+        <LostGamesRivers>0</LostGamesRivers>
         <WonGamesStates>0</WonGamesStates>
         <LostGamesStates>0</LostGamesStates>
       </StatisticsProperty>

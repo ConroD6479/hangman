@@ -163,7 +163,6 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\BackgroundImage.jpg" />
     <Resource Include="Assets\HomeImage.jpg" />
     <Resource Include="Assets\Icon.ico" />
   </ItemGroup>
@@ -186,27 +185,6 @@
     <Resource Include="Assets\Hangs\Hang_6.png" />
     <Resource Include="Assets\Hangs\Hang_7.png" />
     <Resource Include="Assets\Hangs\Hang_2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\Others\Emoji.jpg" />
-    <Resource Include="Assets\Others\Emoji_1.jpg" />
-    <Resource Include="Assets\Others\Emoji_2.jpg" />
-    <Resource Include="Assets\Others\Emoji_3.jpg" />
-    <Resource Include="Assets\Others\Emoji_4.jpg" />
-    <Resource Include="Assets\Others\Emoji_5.jpg" />
-    <Resource Include="Assets\Others\Emoji_6.jpg" />
-    <Resource Include="Assets\Others\Emoji_7.jpg" />
-    <Resource Include="Assets\Others\Emoji_8.jpg" />
-    <Resource Include="Assets\Others\Emoji_9.jpg" />
-    <Resource Include="Assets\Others\Hang.jpg" />
-    <Resource Include="Assets\Others\Hang1.png" />
-    <Resource Include="Assets\Others\Hang2.png" />
-    <Resource Include="Assets\Others\Hangman.png" />
-    <Resource Include="Assets\Others\HangMin.png" />
-    <Resource Include="Assets\Others\HomeImage1.jpg" />
-    <Resource Include="Assets\Others\Icon.png" />
-    <Resource Include="Assets\Others\ToBeCropped.jpg" />
-    <Resource Include="Assets\Others\ToBeCropped.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="_XmlFiles\Words.xml" />
